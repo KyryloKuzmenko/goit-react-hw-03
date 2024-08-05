@@ -1,0 +1,19 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.label {
+    text-align: left;
+    color: #000;
+}
+
+.inp {
+    border: 1px solid #000;
+    margin-bottom: 15px;
+    height: 25px;
+    border-radius: 5px;
+}
