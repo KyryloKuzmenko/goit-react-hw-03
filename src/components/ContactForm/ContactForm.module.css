@@ -5,15 +5,30 @@
     border-radius: 5px;
     padding: 20px;
 }
-
-.label {
+.labelName,
+.labelNumber {
     text-align: left;
     color: #000;
 }
 
+.labelNumber {
+    margin-top: 20px;
+}
+
 .inp {
     border: 1px solid #000;
-    margin-bottom: 15px;
     height: 25px;
     border-radius: 5px;
+}
+
+.errorMessage {
+    margin-top: 0;
+    display: inline-block;
+    color: rgb(228, 0, 0);
+    font-size: 13px;
+    text-align: left;
+}
+
+.addBtn {
+    margin-top: 30px;
 }
