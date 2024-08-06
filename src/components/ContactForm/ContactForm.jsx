@@ -13,10 +13,11 @@ const ContactValidationSchema = Yup.object().shape({
     .min(3, 'Too Short!')
     .max(50, 'Too Long!'),
   number: Yup.string()
-    .matches(phoneRegExp, "The phone number must match the format 'xxx-xx-xx'")
+    .matches(phoneRegExp, "Use format 'xxx-xx-xx'")
     .required('Required'),
 });
 //
+
 
 const ContactForm = ({ onAddProfile }) => {
   // Function to handle form submission
